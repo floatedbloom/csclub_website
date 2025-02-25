@@ -15,7 +15,7 @@ function Header(){
                 </a>
             </div>
             
-            <h1 style={{textAlign: 'center'}}>George's LSHS STEM Clubs</h1>
+            <h1 style={{textAlign: 'center'}}>LSHS Top Clubs</h1>
             <hr></hr>
         </header>
     );
