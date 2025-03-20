@@ -5,7 +5,7 @@ function CSCard(){
         <div className="card">
             <img src={cspic} className="card-image"></img>
             <h2 className="card-title">LSHS CS Club</h2>
-            <p className="card-text">Job interview algorithmic thinking in meetings, school-based projects the rest of the time</p>
+            <p className="card-text">Job interview algorithm practice and group projects !</p>
             <button className="button">More!</button>
         </div>
     );

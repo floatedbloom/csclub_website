@@ -3,6 +3,7 @@ import Footer from './Footer.tsx'
 import MathCard from './MathCard.tsx'
 import ChessCard from './ChessCard.tsx'
 import CSCard from './CSCard.tsx'
+import PPCard from './PingPong.tsx'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <MathCard></MathCard>
         <ChessCard></ChessCard>
         <CSCard></CSCard>
+        <PPCard></PPCard>
       </div>
       <Footer></Footer>
     </div>
