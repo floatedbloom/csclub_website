@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import chesspic from './assets/pp.jpg'
 
 function PPCard(){
@@ -6,7 +7,9 @@ function PPCard(){
             <img src={chesspic} className="card-image"></img>
             <h2 className="card-title">LSHS Ping Pong Club</h2>
             <p className="card-text">Come have fun playing ping pong, no experience required !</p>
-            <button className="button">More!</button>
+            <Link to='/pingpong'>
+                <button className="button">More!</button>
+            </Link>
         </div>
     );
 }
