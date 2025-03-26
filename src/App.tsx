@@ -11,25 +11,27 @@ function App() {
   return (
     <Router>
       <div className='main-div'>
-        <Header></Header>
-        <Routes>
-          <Route path='/' element={
-            <div className="center-items">
-              <MathCard></MathCard>
-              <ChessCard></ChessCard>
-              <CSCard></CSCard>
-              <PPCard></PPCard>
-            </div>
-          }/>
-          <Route path='/math' element={<DetailsPage topic='math'/>}/>
-          <Route path='/chess' element={<DetailsPage topic='chess'/>}/>
-          <Route path='/cs' element={<DetailsPage topic='cs'/>}/>
-          <Route path='/pingpong' element={<DetailsPage topic='pingpong'/>}/>
-        </Routes>
-        <Footer></Footer>
+        <Header />
+        <div className="content-container">
+          <Routes>
+            <Route path='/' element={
+              <div className="center-items">
+                <MathCard />
+                <ChessCard />
+                <CSCard />
+                <PPCard />
+              </div>
+            }/>
+            <Route path='/math' element={<DetailsPage topic='math'/>} />
+            <Route path='/chess' element={<DetailsPage topic='chess'/>} />
+            <Route path='/cs' element={<DetailsPage topic='cs'/>} />
+            <Route path='/pingpong' element={<DetailsPage topic='pingpong'/>} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
     </Router>
-  )
+  );
 }
 
 export default App

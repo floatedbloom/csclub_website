@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import cspic from './assets/math.jpg'
+import cspic from './assets/csclub.jpg'
 
 function CSCard(){
     return (

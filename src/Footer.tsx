@@ -3,7 +3,7 @@
 function Footer(){
     return (
         <footer className="center-items">
-            <p>&copy; {new Date().getFullYear()} George Lapin</p>
+            <p>&copy; {new Date().getFullYear()} LSHS CS Club</p>
         </footer>
     );
 }
