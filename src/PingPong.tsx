@@ -1,15 +1,11 @@
-import { Link } from 'react-router-dom';
-import chesspic from './assets/pp.jpg'
+import pppic from './assets/pp.jpg'
 
 function PPCard(){
     return (
-        <div className="card">
-            <img src={chesspic} className="card-image"></img>
-            <h2 className="card-title">LSHS Ping Pong Club</h2>
-            <p className="card-text">Come have fun playing ping pong, no experience required !</p>
-            <Link to='/pingpong'>
-                <button className="button">More!</button>
-            </Link>
+        <div className="card w-full max-w-sm h-full flex flex-col justify-center items-center">
+            <img src={pppic} className="card-image h-40 mx-auto w-2xl" alt="Ping Pong Club"></img>
+            <h2 className="card-title font-bold">LSHS Ping Pong Club</h2>
+            <p className="card-text">Weekly matches and tournaments !</p>
         </div>
     );
 }
